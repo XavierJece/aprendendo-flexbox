@@ -236,3 +236,126 @@ header#main-header div.side button {
   color: #3bb9e3;
 
 }
+
+/* --------- Configurações padrões Wrapper-content */
+.wrapper-content {
+  display: flex;
+}
+
+/* --------- Configurações padrões do Profile */
+.wrapper-content aside.profile{
+  width: 260px;
+
+}
+
+.wrapper-content aside.profile img.avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin-top: -130px;
+
+}
+
+.wrapper-content aside.profile h1{
+  margin-top: 10px;
+
+  color: #1f2226;
+  font-size: 24px;
+}
+
+.wrapper-content aside.profile span{
+  color: #53626c;
+  font-size: 15px;
+}
+
+.wrapper-content aside.profile p{
+  color: #1f2226;
+  font-size: 16px;
+
+  margin-top: 15px;
+}
+
+.wrapper-content aside.profile ul{
+  list-style: none;
+
+  margin-top: 20px;
+}
+
+.wrapper-content aside.profile li{
+  font-size: 14px;
+  color: #657786;
+
+  display: flex;
+  align-items: center;
+
+  margin-top: 5px;
+}
+
+.wrapper-content aside.profile ul.list li:first-child{
+  margin: 0;
+}
+
+.wrapper-content aside.profile ul.list li img{
+  margin-right: 10px;
+}
+
+.wrapper-content aside.profile .widget{
+  margin-top: 20px;
+}
+
+.wrapper-content aside.profile .widget strong{
+  font-weight: normal;
+  color: #3bb9e3;
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-content aside.profile .widget strong img{
+  margin-right: 5px;
+}
+
+.wrapper-content aside.profile .followers ul{
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+}
+
+.wrapper-content aside.profile .followers ul li{
+  width: 40px;
+  height: 40px;
+  background: #d0d5d9;
+  border-radius: 50%;
+  margin: 0 5px 5px 0;
+
+  flex-shrink: 0;
+
+}
+
+.wrapper-content aside.profile .images ul{
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.wrapper-content aside.profile .images ul li{
+  width: 80px;
+  height: 80px;
+  background: #d0d5d9;
+  border-radius: 8px;
+  margin: 0 5px 5px 0;
+
+  flex-shrink: 0;
+
+}
+
+/* --------- Configurações padrões daa Timeline */
+
+/* --------- Configurações padrões do widgets */
