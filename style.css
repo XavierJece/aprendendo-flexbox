@@ -43,6 +43,10 @@ header#main-header{
   height: 46px;
   background: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .25);
+  
+  /* Para deixar o Header à cima do banner (Mostrar sombra) */
+  position: relative;
+  z-index: 1;
 
 }
 
